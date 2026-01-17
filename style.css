@@ -1,0 +1,256 @@
+body {
+    height: 3000px;
+}
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.container_a {
+    background-image: url("hero-33cc6eb8f1a98f8aacf154a4ff4c5f76d5610553e8ba4accb6d22515a64a184a.jpg");
+    height: 100vh;
+    width: 100%;
+}
+nav { 
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(105, 105, 105);
+    height: 80px;
+}
+.container_a div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav div0 button {
+    color: white;
+    background-color: rgb(105, 105, 105);
+    border: 0.3px solid white;
+    padding: 5px;
+    margin: 5px;
+    font-size: 18px;
+    transition: all 1s ease;
+}
+
+button:hover {
+    background-color:rgb(159, 158, 158) ; 
+}
+nav div1 button {
+    color: white;
+    background-color: rgb(105, 105, 105);
+    border: 3px solid rgb(105, 105, 105);
+    padding: 20px;
+}
+div1 {
+    margin: 5px;
+    justify-content: space-around;
+}
+div3 {
+    display: flex;
+}
+div div3 input {
+    direction: rtl;
+    text-align: right;
+    width: 400px;
+    height: 40px;
+    padding: 5px;
+    font-size: 18px;
+}
+div div3 button {
+    color: white;
+    background-color: rgb(6, 202, 6);
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    margin: 5px 0 0 5px;
+    cursor: pointer;
+    border: none;
+    transition: all 1s ease;
+}
+div div3 button:hover {
+    background-color: green;
+}
+div div4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: bold;
+}
+div div4 button {
+    padding: 5px;
+    margin: 3px;
+    color: black;
+    background-color: white;
+    border: 0.05px solid rgb(187, 186, 186) ;
+}
+div div4 button:hover {
+    color: white;
+    background-color: rgb(6, 202, 6);
+    transition: all 1s ease;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 50px;
+}
+
+.container_a p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.container_b {
+    display: flex;
+    height: 230px;
+    gap: 20px;
+    font-size: 50px;
+    margin: 10px;
+}
+.container_b div {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.father_container_a img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  filter: brightness(60%);
+}
+
+.container_c {
+    display: flex;
+    height: 230px;
+    gap: 20px;
+    font-size: 50px;
+    margin: 10px;
+}
+.container_c div {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.container_d {
+    display: flex;
+    height: 230px;
+    gap: 20px;
+    font-size: 50px;
+    margin: 10px;
+}
+.container_d div {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container_e {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container_e button {
+    width: 220px;
+    height: 60px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    border: 0;
+    background-color: white;
+    direction: rtl;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.container_e button:hover {
+    color: black;
+    background-color: white;
+    
+}
+
+.container_f {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container_f button {
+    width: 220px;
+    height: 60px;
+    margin-top: 5px;
+    font-size: 18px;
+    border: 0;
+    background-color: white;
+    direction: rtl;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.container_f button:hover {
+    color: black;
+    background-color: white;
+    
+}
+.father_container_b{
+    background-color: rgb(236, 235, 235);
+    height: 300px;
+}
+
+.father_container_b h1 {
+    padding: 20px;
+}
+
+.container_g {
+    justify-content: space-between;
+}
+
+.container_g div {
+    direction: rtl;
+    text-align: right;
+    margin: 30px;
+}
+
+.father_container_d{
+    background-color: rgb(236, 235, 235);
+    height: 700px;
+
+}
+
+.father_container_d h1 {
+    padding: 90px 0;
+}
+
+.container_h {
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    text-align: center;
+    direction: ltr;
+    gap: 40px;
+    margin: 100px auto;
+    max-width: 1100px;
+}
+
